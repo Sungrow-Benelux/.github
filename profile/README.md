@@ -60,7 +60,7 @@ A de facto standard online edit tools for the Latex writing. Using the latex doc
 a test report, a specification document, a design report, or a application for a better technical solution. Presenting the documents written in latex with overleaf
 is like wearing a formal suit, sometimes you have to wear it when you are dealing with important people.
 
-### Coding standard
+### Coding standard (still working on it)
 #### Google C++ open-source coding style
 #### Sungrow C Coding standard
 #### Valgrind
