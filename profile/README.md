@@ -64,3 +64,4 @@ is like wearing a formal suit, sometimes you have to wear it when you are dealin
 #### Google C++ open-source coding style
 #### Sungrow C Coding standard
 #### Valgrind
+#### PC-lint
