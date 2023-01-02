@@ -10,7 +10,7 @@
 |:sunglasses: Qihao Xia  | :clipboard:  |
 |:sunglasses: Qixiang Xu   | :clipboard:|
 |:sunglasses: Shengqing Ma  | :clipboard:  |
-|:sunglasses: Weiner Bao  | :clipboard:  |
+|:sunglasses: Winer Bao  | :clipboard:  |
 |:sunglasses: Xiaoyao Luo   | :clipboard:  |
 |:sunglasses: Yu Ni  | :clipboard:  
 
