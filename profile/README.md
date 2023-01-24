@@ -55,6 +55,8 @@ When dealing with github, we will have to write many markdown style files. In ou
 write a technical documents for the codes, or just simply write some random texts that could help you think. ReText and Ghostwriter are both markdown
 style text writing tools. Considering the colorful markdown parsing style in different tools, it will be good to have both.
 
+#### [sublime text](https://www.sublimetext.com/docs/linux_repositories.html#apt)
+
 #### [Overleaf](https://www.overleaf.com/)
 A de facto standard online edit tools for the Latex writing. Using the latex document's template, you can write a fancy and well-structured instruction manual, 
 a test report, a specification document, a design report, or a application for a better technical solution. Presenting the documents written in latex with overleaf
