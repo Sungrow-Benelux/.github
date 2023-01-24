@@ -29,6 +29,33 @@ It is a helpful tool to align your commit message with the angular rules. If you
 the generation of the changelog will be fully automated, via a simple command. To config the application, refer to: [conventional changelog config](https://www.npmjs.com/package/conventional-changelog-custom-config).\
 Here is an example for the changelog:
 ![Screenshot from 2022-12-28 15-11-49](https://user-images.githubusercontent.com/65727493/209824976-f0f879a2-59e7-488b-9c1a-203bceb7221c.png)
+#### [git flow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
+git flow is a tool for the branching model, which can standardlize the repo release cycle. It assigns very specific roles to different branches and defines how and when they should interact. Check the link for more introduction, and the developers should follow this branching model one way or the other. The config file for the git flow should be aligned to:
+```bash
+[gitflow "branch"]
+	master = main
+	develop = dev
+[gitflow "prefix"]
+	feature = feat
+	bugfix = fix
+	release = release
+	hotfix = hotfix
+	support = support/
+	versiontag = 
+[gitflow "path"]
+	hooks = /path/to/projects/.git/hooks
+```
+
+By using 
+```bash
+git flow init
+```
+
+The command will guide you to setup all the branches's default prefix. The config file will be located in /.gits/config, double-check the content or use:
+```bash
+git flow config
+```
+to verify the settings.
 
 ### Documentation
 #### [Doxygen](https://www.doxygen.nl/)
