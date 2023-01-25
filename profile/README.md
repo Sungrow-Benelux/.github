@@ -51,11 +51,48 @@ By using
 git flow init
 ```
 
-The command will guide you to setup all the branches's default prefix. The config file will be located in /.gits/config, double-check the content or use:
+The command will guide you to setup all the branches's default prefix. The command line will show guide as follows:
+```bash
+Branch name for production releases:
+Branch name for "next release" development: 
+How to name your supporting branch prefixes?
+Feature branches? [feature/]
+Bugfix branches? [bugfix/] 
+Release branches? [release/]        
+Hotfix branches? [hotfix/] 
+Support branches? [support/] 
+Version tag prefix?
+```
+
+According to the syntax style that we are always using, please complete each line as follows:
+```bash
+Branch name for production releases: main
+Branch name for "next release" development: dev
+How to name your supporting branch prefixes?
+Feature branches? [feature/] feat
+Bugfix branches? [bugfix/] fix 
+Release branches? [release/]        
+Hotfix branches? [hotfix/] 
+Support branches? [support/] 
+Version tag prefix?
+```
+
+The empty line indicates that the default prefixes are used. After setting, the config file will be located in /.gits/config, double-check the content or use:
 ```bash
 git flow config
 ```
 to verify the settings.
+
+Now, if you want to implement a new feature using the branching, input command as follows:
+```bash
+git checkout dev
+git flow feature start _do_some_new_things
+```
+The branch **feat_do_some_new_things** will be automatically created. If you finish the development and testing, the codes are passing the **function test** state in the projects, input command as:
+```bash
+git flow feature finish _do_some_new_things
+```
+This branch will be automatically merged to the **dev** branch, which is initially set as the "next release" branch. And the feat_do_some_new_things will be automatically deleted locally and remotly.
 
 ### Documentation
 #### [Doxygen](https://www.doxygen.nl/)
