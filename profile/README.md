@@ -125,9 +125,3 @@ style text writing tools. Considering the colorful markdown parsing style in dif
 A de facto standard online edit tools for the Latex writing. Using the latex document's template, you can write a fancy and well-structured instruction manual, 
 a test report, a specification document, a design report, or a application for a better technical solution. Presenting the documents written in latex with overleaf
 is like wearing a formal suit, sometimes you have to wear it when you are dealing with important people.
-
-### Coding standard (still working on it)
-#### Google C++ open-source coding style
-#### Sungrow C Coding standard
-#### Valgrind
-#### PC-lint
